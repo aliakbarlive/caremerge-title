@@ -1,0 +1,23 @@
+{
+  "name": "caremerge-title",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start:callbacks": "STRATEGY=callbacks node src/app.js",
+    "start:async": "STRATEGY=async node src/app.js",
+    "start:promises": "STRATEGY=promises node src/app.js"
+  },
+  "keywords": [],
+  "author": "ali akbar",
+  "license": "ISC",
+  "description": "this is a simple node js project to test the caremerge title api",
+  "dependencies": {
+    "async": "^3.2.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
