@@ -1,4 +1,3 @@
-```markdown
 # Careaxiom Assessment — Website Titles API
 
 A small Node.js service that exposes **one endpoint**:
@@ -21,7 +20,7 @@ Also includes a **native request logger**: time, method, path, status, duration.
 ### 1) Install dependencies
 ```bash
 npm install
-````
+```
 
 ### 2) Start the server
 
@@ -64,7 +63,7 @@ All values can be overridden via environment variables:
 | Variable        | Description                        | Default           |
 | --------------- | ---------------------------------- | ----------------- |
 | `PORT`          | Server port                        | `3000`            |
-| `STRATEGY`      | `callbacks` | `async` | `promises` | `promises`        |
+| `STRATEGY`      | `callbacks` \| `async` \| `promises` | `promises`        |
 | `TIMEOUT_MS`    | Outbound fetch timeout per site    | `4000`            |
 | `CONCURRENCY`   | Parallel outbound fetches          | `5`               |
 | `MAX_BYTES`     | Max response size read per site    | `1048576` (1 MiB) |
@@ -316,4 +315,3 @@ Expected:
 ## Author
 
 Ali Akbar
-
